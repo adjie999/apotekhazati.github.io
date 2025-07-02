@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apotek Hazati</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #007d56;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #007d56;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #007d56;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #33cc33;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .shopee-link {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .shopee-link a {
+      background-color: #ee4d2d;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Apotek Hazati</h1>
+    <p>Talk to a Pharmacist | Apoteker Asli & Terpercaya</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Apotek Hazati</h1>
+    <p>Your trusted partner for medicine, consultation, and healthcare products.</p>
+    <a href="https://wa.me/6281234567890" class="btn">Chat Us on WhatsApp</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Apotek Hazati</h2>
+    <p>Apotek Hazati is run by a licensed pharmacist and committed to providing original, registered pharmaceutical products with proper guidance. We support your health journey by offering professional consultation and reliable medication services, both offline and online.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <ul>
+      <li>🔬 Sales of OTC and prescription medicines</li>
+      <li>💊 Consultation with a certified pharmacist</li>
+      <li>🧴 Health supplements & skincare products</li>
+      <li>📦 Delivery across Indonesia</li>
+    </ul>
+    <div class="shopee-link">
+      <a href="https://shopee.co.id/apotekhazati" target="_blank">🛒 Visit Our Shopee Store</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Your City, Indonesia</p>
+    <p>📱 WhatsApp: <a href="https://wa.me/6281234567890">+62 812-3456-7890</a></p>
+    <p>📧 Email: apotekhazati@email.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Apotek Hazati. All rights reserved.
+  </footer>
+</body>
+</html>
